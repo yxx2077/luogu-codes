@@ -2,6 +2,7 @@
 # 忽略默认编译输出（a.out 是 g++/clang 默认产物）
 a.out
 # 忽略手动指定的可执行文件（如编译时 -o 生成的程序）
+*.exec
 *.exe       # Windows 可执行文件
 test
 main
@@ -40,3 +41,5 @@ Thumbs.db       # Windows 缩略图缓存
 # 5. 忽略日志和缓存文件
 *.log
 *.cache
+
+官方题单/
